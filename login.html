@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Вход</title>
+    </head>
+    <body>
+        <h1>ВХОД</h1>
+        <form>
+            <div>
+				<div>
+					<label><b>Логин</b></label>
+					<input type="email" placeholder="Введите e-mail пользователя" name="login" title="E-mail пользователя." required>
+				</div>
+				<div>
+					<label><b>Пароль</b></label>
+					<input type="password" placeholder="Введите пароль" name="password" pattern="^[A-Za-z0-9]{6,}$" title="Пароль должен содержать не менее 6 символов. Могут присутствовать только буквы латинского алфавита и/или цифры." required>
+				</div>
+				<div>
+					<button type="submit">Войти</button>
+				</div>	
+            </div>                
+        </form>
+    </body>
+</html>
