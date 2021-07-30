@@ -1,0 +1,17 @@
+.title {
+	text-transform: uppercase
+}
+
+#login-form .row {
+	margin-bottom: 10px
+}
+
+#login-form .caption {
+	font-weight: bold;
+	display: inline-block;
+	width: 80px
+}
+
+#login-form .input {
+	width: 200px
+}
